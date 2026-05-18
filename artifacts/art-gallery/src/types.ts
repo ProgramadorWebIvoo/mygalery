@@ -4,7 +4,7 @@ export interface Artwork {
   artist: string;
   description?: string;
   technique?: string;
-  price: number;
+  price?: number;
   imageUrl: string;
   createdAt: Date;
   updatedAt: Date;
